@@ -44,3 +44,17 @@ export const Greeting = styled.div`
       text-align: center;
    }
 `;
+
+export const Form = styled.form`
+   background-color: gree;
+`;
+
+export const UserName = styled.div`
+   display: flex;
+   flex-direction: column;
+`;
+
+export const Password = styled.div`
+   display: flex;
+   flex-direction: column;
+`;

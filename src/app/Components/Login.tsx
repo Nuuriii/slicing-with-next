@@ -1,6 +1,14 @@
 "use client";
 import IconBrand from "../../../public/icon.svg";
-import { Wrapper, Icon, FormContainer, Greeting } from "./Login.styled";
+import {
+   Wrapper,
+   Icon,
+   FormContainer,
+   Greeting,
+   Form,
+   UserName,
+   Password,
+} from "./Login.styled";
 import Image from "next/image";
 
 export default function Login() {
@@ -15,6 +23,16 @@ export default function Login() {
                <p>Welcome back! 👋</p>
                <h1>Login to Your account</h1>
             </Greeting>
+            <Form>
+               <UserName>
+                  <label htmlFor='name'>User Name</label>
+                  <input type='text' placeholder='Enter username' />
+               </UserName>
+               <Password>
+                  <label htmlFor='password'>Password</label>
+                  <input type='password' placeholder='Enter password' />
+               </Password>
+            </Form>
          </FormContainer>
       </Wrapper>
    );
