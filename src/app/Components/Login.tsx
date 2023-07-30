@@ -25,7 +25,7 @@ export default function Login() {
             </Greeting>
             <Form>
                <UserName>
-                  <label htmlFor='name'>User Name</label>
+                  <label htmlFor='name'>Username</label>
                   <input type='text' placeholder='Enter username' />
                </UserName>
                <Password>

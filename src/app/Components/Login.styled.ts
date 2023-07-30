@@ -52,6 +52,15 @@ export const Form = styled.form`
 export const UserName = styled.div`
    display: flex;
    flex-direction: column;
+   gap: 0.2rem;
+   input {
+      border-radius: 0.26rem;
+      border: 1px solid #dedede;
+      padding: 0.5rem 0.4rem;
+   }
+   input:placeholder {
+      color: #red;
+   }
 `;
 
 export const Password = styled.div`
