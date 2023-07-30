@@ -1,10 +1,10 @@
-import Link from "next/link";
-import Image from "next/image";
+"use client";
+import Login from "./Components/Login";
 
 export default function Home() {
    return (
-      <div>
-         <h1>halo dunia</h1>
-      </div>
+      <>
+         <Login />
+      </>
    );
 }
