@@ -8,6 +8,7 @@ import {
    Form,
    UserName,
    Password,
+   LoginContainer,
 } from "./Login.styled";
 import Image from "next/image";
 
@@ -32,6 +33,9 @@ export default function Login() {
                   <label htmlFor='password'>Password</label>
                   <input type='password' placeholder='Enter password' />
                </Password>
+               <LoginContainer>
+                  <button>Login</button>
+               </LoginContainer>
             </Form>
          </FormContainer>
       </Wrapper>

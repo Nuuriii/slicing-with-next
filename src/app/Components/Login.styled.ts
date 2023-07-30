@@ -25,6 +25,8 @@ export const Icon = styled.div`
 
 export const FormContainer = styled.div`
    border: 2px solid black;
+   padding: 0.6rem 0.9rem;
+   border-radius: 0.365rem;
 `;
 
 export const Greeting = styled.div`
@@ -46,7 +48,9 @@ export const Greeting = styled.div`
 `;
 
 export const Form = styled.form`
-   background-color: gree;
+   display: flex;
+   flex-direction: column;
+   gap: 0.8rem;
 `;
 
 export const UserName = styled.div`
@@ -66,4 +70,18 @@ export const UserName = styled.div`
 export const Password = styled.div`
    display: flex;
    flex-direction: column;
+   gap: 0.2rem;
+   input {
+      border-radius: 0.26rem;
+      border: 1px solid #dedede;
+      padding: 0.5rem 0.4rem;
+   }
+   input:placeholder {
+      color: #red;
+   }
+`;
+
+export const LoginContainer = styled.div`
+   background-color: green;
+   width: 2rem;
 `;
