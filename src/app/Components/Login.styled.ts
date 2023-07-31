@@ -125,6 +125,7 @@ export const Google = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
+      gap: 9px;
       border-radius: 0.2rem;
       width: 100%;
       border: none;
