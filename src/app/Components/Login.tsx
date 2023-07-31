@@ -1,5 +1,6 @@
 "use client";
 import IconBrand from "../../../public/icon.svg";
+import GoogleIcon from "../../../public/Google.svg";
 import {
    Wrapper,
    Icon,
@@ -9,6 +10,8 @@ import {
    UserName,
    Password,
    LoginContainer,
+   Hr,
+   Google,
 } from "./Login.styled";
 import Image from "next/image";
 
@@ -34,8 +37,17 @@ export default function Login() {
                   <input type='password' placeholder='Enter password' />
                </Password>
                <LoginContainer>
-                  <button>Login</button>
+                  <button>LOGIN</button>
                </LoginContainer>
+               <Hr>
+                  <span>Or</span>
+               </Hr>
+               <Google>
+                  <button>
+                     <Image src={GoogleIcon} alt='Google icon' />
+                     <span>Login with Gmail</span>
+                  </button>
+               </Google>
             </Form>
          </FormContainer>
       </Wrapper>

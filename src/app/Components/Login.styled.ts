@@ -24,8 +24,8 @@ export const Icon = styled.div`
 `;
 
 export const FormContainer = styled.div`
-   border: 2px solid black;
-   padding: 0.6rem 0.9rem;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+   padding: 0.6rem 0.9rem 1.5rem 0.9rem;
    border-radius: 0.365rem;
 `;
 
@@ -65,6 +65,11 @@ export const UserName = styled.div`
    input:placeholder {
       color: #red;
    }
+   input:focus {
+      outline: solid;
+      outline-width: 2px;
+      outline-color: black;
+   }
 `;
 
 export const Password = styled.div`
@@ -82,6 +87,48 @@ export const Password = styled.div`
 `;
 
 export const LoginContainer = styled.div`
-   background-color: green;
-   width: 2rem;
+   width: 100%;
+   button {
+      border-radius: 0.2rem;
+      width: 100%;
+      border: none;
+      background-color: #0024de;
+      color: white;
+      padding: 0.5rem 0;
+      font-weight: 400;
+      font-family: Lexend, sans;
+   }
 `;
+
+export const Hr = styled.div`
+   width: 100%;
+   text-align: center;
+   border-bottom: 1px solid rgb(190, 185, 185);
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   span {
+      background: #fff;
+      padding: 0 10px;
+      color: #393537;
+   }
+`;
+
+export const Google = styled.div`
+   width: 100%;
+   button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.2rem;
+      width: 100%;
+      border: none;
+      background-color: #fff;
+      color: #393537;
+      padding: 0.5rem 0;
+      font-weight: 400;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+      font-family: Lexend, sans;
+   }
+`;
+
+//
