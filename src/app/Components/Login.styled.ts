@@ -104,6 +104,10 @@ export const LoginContainer = styled.div`
       font-weight: 400;
       font-family: Lexend, sans;
    }
+
+   button:hover {
+      background-color: #1b3bda;
+   }
 `;
 
 export const Hr = styled.div`
