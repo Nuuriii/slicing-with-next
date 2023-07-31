@@ -107,6 +107,7 @@ export const LoginContainer = styled.div`
 
    button:hover {
       background-color: #1b3bda;
+      transform: scale(0.96);
    }
 `;
 
@@ -139,6 +140,10 @@ export const Google = styled.div`
       font-weight: 400;
       box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
       font-family: Lexend, sans;
+   }
+   button:hover {
+      background-color: #d3d1d1;
+      transform: scale(0.96);
    }
 `;
 
