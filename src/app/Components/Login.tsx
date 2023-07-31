@@ -19,8 +19,12 @@ export default function Login() {
    return (
       <Wrapper>
          <Icon>
-            <Image src={IconBrand} alt='ikon' />
-            <p>ProductName</p>
+            <div>
+               <Image src={IconBrand} alt='ikon' />
+            </div>
+            <div>
+               <p>ProductName</p>
+            </div>
          </Icon>
          <FormContainer>
             <Greeting>

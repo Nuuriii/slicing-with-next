@@ -27,6 +27,7 @@ export const FormContainer = styled.div`
    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
    padding: 0.6rem 0.9rem 1.5rem 0.9rem;
    border-radius: 0.365rem;
+   width: 20rem;
 `;
 
 export const Greeting = styled.div`
@@ -84,6 +85,11 @@ export const Password = styled.div`
    input:placeholder {
       color: #red;
    }
+   input:focus {
+      outline: solid;
+      outline-width: 2px;
+      outline-color: black;
+   }
 `;
 
 export const LoginContainer = styled.div`
@@ -105,7 +111,7 @@ export const Hr = styled.div`
    text-align: center;
    border-bottom: 1px solid rgb(190, 185, 185);
    line-height: 0.1em;
-   margin: 10px 0 20px;
+   margin: 10px 0 10px;
    span {
       background: #fff;
       padding: 0 10px;
